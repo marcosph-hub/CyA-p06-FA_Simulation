@@ -1,0 +1,8 @@
+abba -- Accepted
+abbb -- Accepted
+abb -- Rejected
+abb -- Rejected
+bbbb -- Accepted
+abbbbbbb -- Accepted
+a -- Rejected
+b -- Rejected
