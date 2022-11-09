@@ -37,15 +37,15 @@ NFA::NFA(std::string input) {
 
   //Alphabet
   std::set<std::string> alphabet_set;
-  std::string symbol;
   std::string file_alphabet;
-  std::istringstream iss_alphabet(file_alphabet);
   getline(file, file_alphabet);
-  while(iss_alphabet >> symbol) {
-    std::cout << symbol << " ";
-  }
-  std::cout << std::endl;
 
+for (unsigned int i = 0; i < file_alphabet.size(); i++) {
+  char char_symbol = file_alphabet[i];
+  std::string str_symbol(1,char_symbol);
+  alphabet_set.insert(str_symbol);
+  i++;
+}
 
 
   std::string data;

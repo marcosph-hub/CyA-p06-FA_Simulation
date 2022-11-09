@@ -1,8 +1,6 @@
-abba -- Accepted
-abbb -- Accepted
-abb -- Rejected
-abb -- Rejected
-bbbb -- Accepted
-abbbbbbb -- Accepted
-a -- Rejected
-b -- Rejected
+100 -- Accepted
+00110 -- Accepted
+11001101 -- Accepted
+01 -- Rejected
+001 -- Rejected
+0000 -- Rejected
