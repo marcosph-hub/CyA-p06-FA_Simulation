@@ -7,7 +7,7 @@
  * Práctica . Autómatas Finitos No Deterministas
  * @author Marcos Padilla Herrera
  * Correo: alu0101045177@ull.edu.es
- * @since 23/11/2020
+ * @since 09/11/2022
  * @details:      Contiene el desarrollo de la clase NFA, que representa un Autómata 
  *                Finito No Determinista (NFA). Contiene un alfabeto, un conjunto de 
  *                estados y un conjunto de transiciones, y comprueba si una determinada

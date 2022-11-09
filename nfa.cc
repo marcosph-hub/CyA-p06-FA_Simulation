@@ -1,5 +1,5 @@
 /**
- * Universidad de La Laguna
+ * @par Universidad de La Laguna 
  * Facultad: Escuela Superior de Ingeniería y Tecnología
  * Grado en Ingeniería Informática
  * Asignatura: Computabilidad y Algoritmia
@@ -7,7 +7,7 @@
  * Práctica . Autómatas Finitos No Deterministas
  * @author Marcos Padilla Herrera
  * Correo: alu0101045177@ull.edu.es
- * @since 23/11/2020
+ * @since 09/11/2022
  * @details:      Contiene el desarrollo de la clase NFA, que representa un Autómata 
  *                Finito No Determinista (NFA). Contiene un alfabeto, un conjunto de 
  *                estados y un conjunto de transiciones, y comprueba si una determinada
@@ -40,13 +40,13 @@ NFA::NFA(std::string input) {
   std::string file_alphabet;
   getline(file, file_alphabet);
 
-for (unsigned int i = 0; i < file_alphabet.size(); i++) {
-  char char_symbol = file_alphabet[i];
-  std::string str_symbol(1,char_symbol);
-  alphabet_set.insert(str_symbol);
-  i++;
-}
-
+  for (unsigned int i = 0; i < file_alphabet.size(); i++) {
+    char char_symbol = file_alphabet[i];
+    std::string str_symbol(1,char_symbol);
+    alphabet_set.insert(str_symbol);
+    i++;
+  }
+  alphabet_.setAlphabet(alphabet_set);
 
   std::string data;
   //Total states amount

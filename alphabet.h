@@ -7,7 +7,7 @@
  * Práctica 7. Autómatas Finitos Deterministas
  * @author Marcos Padilla Herrera
  * Correo: alu0101045177@ull.edu.es
- * @since 21/11/2020
+ * @since 09/11/2022
  * @details:      Contiene el desarrollo de la clase Alphabet, que representa el alfabeto
  *                de un autómata finito determinista (DFA). La clase incluye métodos para
  *                insertar y buscar elementos en el alfabeto.
@@ -20,8 +20,8 @@
                   https://en.wikipedia.org/wiki/Deterministic_finite_automaton
 
  *  Historial de revisiones:
-                  21/11/2020 - Creación del código (primera versión)
-                  24/11/2020 - Versión para evaluación
+                  09/11/2022 - Creación del código (primera versión)
+                  09/11/2022 - Versión para evaluación
  */
 
 #pragma once
@@ -36,6 +36,7 @@ class Alphabet {
   Alphabet();
   ~Alphabet();
   bool SearchElement(std::string element);
+  void setAlphabet(std::set<std::string> external_alphabet);
   void WriteAlphabet();
   void InsertSymbol(std::string symbol);
   Alphabet operator=(const Alphabet parametre_alphabet); 

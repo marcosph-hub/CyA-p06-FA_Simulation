@@ -7,7 +7,7 @@
  * Práctica 7. Autómatas Finitos Deterministas
  * @author Marcos Padilla Herrera
  * Correo: alu0101045177@ull.edu.es
- * @since 21/11/2020
+ * @since 09/11/2022
  * @details:      Contiene el desarrollo de la clase State, que representa un estado de
  *                un autómata finito determinista (DFA). El estado viene determinado por 
  *                un identificador, y puede tratarse de un estado inicial o de un estado 
@@ -21,8 +21,8 @@
                   https://en.wikipedia.org/wiki/Deterministic_finite_automaton
 
  *  Historial de revisiones:
-                  21/11/2020 - Creación del código (primera versión)
-                  24/11/2020 - Versión para evaluación
+                  09/11/2022 - Creación del código (primera versión)
+                  09/11/2022 - Versión para evaluación
  */
 
 #pragma once

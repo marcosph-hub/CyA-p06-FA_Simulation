@@ -5,9 +5,9 @@
  * Asignatura: Computabilidad y Algoritmia
  * Curso: 2º
  * Práctica 7. Autómatas Finitos Deterministas
- * @author David Hernández Suárez
- * Correo: alu0101048239@ull.edu.es
- * @since 21/11/2020
+ * @author Marcos Padilla Herrera
+ * Correo: alu0101045177@ull.edu.es
+ * @since 09/11/2022
  * @details:      Contiene el desarrollo de la clase Transition, que representa una 
  *                transición en un Autómata Finito Determinista (DFA). La transición
  *                viene determinada por el estado actual, el estado siguiente y el 
@@ -21,8 +21,8 @@
                   https://en.wikipedia.org/wiki/Deterministic_finite_automaton
 
  *  Historial de revisiones:
-                  21/11/2020 - Creación del código (primera versión)
-                  24/11/2020 - Versión para evaluación
+                  09/11/2022 - Creación del código (primera versión)
+                  09/11/2022 - Versión para evaluación
  */
 
 #pragma once
